@@ -33,7 +33,7 @@ export default function Home({allPostsData}) {
             // </li>
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                <a>{title}ああああ</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
